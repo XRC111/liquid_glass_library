@@ -1,0 +1,28 @@
+name: liquid_glass_flutter
+description: >-
+  Liquid Glass widgets for Flutter: GPU refraction, chromatic dispersion,
+  Fresnel rim lighting and touch-driven highlights rendered with
+  FragmentProgram shaders. Automatic quality tiers cover Android API 24-35
+  (Impeller Vulkan / OpenGL ES) with low-end fallbacks.
+version: 1.0.0
+homepage: https://github.com/XRC111/liquid_glass_flutter
+repository: https://github.com/XRC111/liquid_glass_flutter
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  shaders:
+    - shaders/liquid_glass.frag
+    - shaders/blur_horizontal.frag
+    - shaders/blur_vertical.frag
