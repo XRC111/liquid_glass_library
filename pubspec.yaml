@@ -5,8 +5,8 @@ description: >-
   FragmentProgram shaders. Automatic quality tiers cover Android API 24-35
   (Impeller Vulkan / OpenGL ES) with low-end fallbacks.
 version: 1.0.0
-homepage: https://github.com/XRC111/liquid_glass_flutter
-repository: https://github.com/XRC111/liquid_glass_flutter
+homepage: https://github.com/XRC111/liquid_glass_library
+repository: https://github.com/XRC111/liquid_glass_library
 
 environment:
   sdk: ^3.9.2

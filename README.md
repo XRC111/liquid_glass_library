@@ -19,7 +19,7 @@ Flutter **液态玻璃（Liquid Glass）**组件库：真实折射、RGB 色散�
 dependencies:
   liquid_glass_flutter:
     git:
-      url: https://github.com/XRC111/liquid_glass_flutter.git
+      url: https://github.com/XRC111/liquid_glass_library.git
 ```
 
 或 path 依赖：
